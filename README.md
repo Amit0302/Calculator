@@ -13,7 +13,7 @@ A tool for Addition, Substraction, Multiplication and Division
 - `$ apt update -y && apt upgrade -y`
 - `$ pkg install git -y`
 - `$ pkg install nano -y && pkg Install clang -y`
-- `$ git clone https://github.com/Amit0302/Calculator.it `
+- `$ git clone https://github.com/Amit0302/Calculator.git`
 
 
 
