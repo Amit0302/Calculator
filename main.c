@@ -55,24 +55,24 @@ scanf("%d" , &b);
 switch (choice)
 {
 case 1:
-   printf("\033[38;5;178m"); printf("\nThe Addition of %d and %d is %d" , a,b,a+b) ;printf("\033[0m");
+   printf("\033[38;5;178m"); printf("\nThe Addition of %d and %d is %d\n" , a,b,a+b) ;printf("\033[0m");
      break;
 
 case 2:
-    printf("\033[38;5;178m"); printf("\nThe Substraction of %d and %d is %d" , a,b,a-b) ;printf("\033[0m");
+    printf("\033[38;5;178m"); printf("The Substraction of %d and %d is %d\n" , a,b,a-b) ;printf("\033[0m");
      break;
 
 case 3:
-    printf("\033[38;5;178m"); printf("\nThe Multiplication of %d and %d is %d" , a,b,a*b) ;printf("\033[0m");
+    printf("\033[38;5;178m"); printf("The Multiplication of %d and %d is %d\n" , a,b,a*b) ;printf("\033[0m");
      break;
 
 
 case 4:
-    printf("\033[38;5;178m"); printf("\nThe Division of %d and %d is %d \nand The Remainder is %d" , a,b,a/b,a%b) ;printf("\033[0m");
+    printf("\033[38;5;178m"); printf("The Division of %d and %d is %d \nand The Remainder is %d\n" , a,b,a/b,a%b) ;printf("\033[0m");
      break;
 
 default:
-printf("\033[38;5;9m");printf("\nInvalide option");printf("\033[0m");
+printf("\033[38;5;9m");printf("Invalide option\n");printf("\033[0m");
     break;
 }
 
