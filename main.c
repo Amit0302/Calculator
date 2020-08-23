@@ -32,19 +32,19 @@ printf("\033[38;5;50m");printf("                                  °------------
 
 
 int a,b,choice;
-printf("\033[38;5;10m");printf("*********WELCOME**********\n");
-printf("\033[38;5;10m");printf("*****TOOL BY AMIT*****\n\n");printf("\033[0m");
-printf("\033[38;5;228m");printf("[1.] Addition Of Two Numbers :-)\n\n[2.] Substraction Of Two Numbers :-)\n\n[3.] Multiplication Of Two Numbers :-)\n\n[4.] Division Of Two Numbers :-)\n\n");printf("\033[0m");
-printf("\033[38;5;197m");printf("[∆] Choose Your Option(1-4):->\n");printf("\033[0m");
+
+
+printf("\033[38;5;228m");printf("[1] Addition Of Two Numbers :-)\n\n[2] Substraction Of Two Numbers :-)\n\n[3] Multiplication Of Two Numbers :-)\n\n[4] Division Of Two Numbers :-)\n\n");printf("\033[0m");
+printf("\033[38;5;197m");printf("[∆] Choose Your Option(1-4):-> ");printf("\033[0m");
 scanf("%d" ,&choice);
 
 if (choice<=4)
 {
      /* code */
-printf("\033[38;5;201m");printf("[®] Enter The First Number:->");printf("\033[0m");
+printf("\033[38;5;201m");printf("\n[®] Enter The First Number:-> ");printf("\033[0m");
 scanf("%d" , &a);
 
-printf("\033[38;5;201m");printf("\n[®] Enter The Second Nmuber:->");printf("\033[0m");
+printf("\033[38;5;201m");printf("\n[®] Enter The Second Nmuber:-> ");printf("\033[0m");
 scanf("%d" , &b);
 }
 
@@ -55,15 +55,15 @@ scanf("%d" , &b);
 switch (choice)
 {
 case 1:
-   printf("\033[38;5;178m"); printf("\nThe Addition of %d and %d is  %d" , a,b,a+b) ;
+   printf("\033[38;5;178m"); printf("\nThe Addition of %d and %d is %d" , a,b,a+b) ;printf("\033[0m");
      break;
 
 case 2:
-    printf("\033[38;5;178m"); printf("\nThe Substraction of %d and %d is  %d" , a,b,a-b) ;
+    printf("\033[38;5;178m"); printf("\nThe Substraction of %d and %d is %d" , a,b,a-b) ;printf("\033[0m");
      break;
 
 case 3:
-    printf("\033[38;5;178m"); printf("\nThe Multiplication of %d and %d is  %d" , a,b,a*b) ;
+    printf("\033[38;5;178m"); printf("\nThe Multiplication of %d and %d is %d" , a,b,a*b) ;printf("\033[0m");
      break;
 
 
